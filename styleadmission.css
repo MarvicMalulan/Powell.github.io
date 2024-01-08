@@ -1,0 +1,636 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9FFF8;
+    margin: 0;
+    padding: 0;
+    background-color: #F9FFF8;
+    position: relative;
+    display: inline-block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 240px;
+}
+
+.upper_brown{
+    position: absolute;
+    top: -1px;
+    width: 1519px;
+    height: 32px;
+    background-color: #2D221E;
+}
+
+.mini_logo{
+    position: absolute;
+    top: 21px;
+    left: 48px;
+    width: 104.854px;
+    height: 101px;
+}
+
+.school_name{
+    position: absolute;
+    top: 62px;
+    left: 215px;
+    color: #6F4331;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.school_address{
+    position: absolute;
+    top: 93px;
+    left: 215px;
+    color: #6F6D6C;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*navigations*/
+
+.navigations{
+    position: absolute;
+    top: 151px;
+    left: -1px;
+    width: 1519px;
+    height: 68px;
+    flex-shrink: 0;
+    background-image: linear-gradient(#4E9248,#307837) ;
+    stroke-width: 1px;
+}
+
+.home a{
+    text-decoration: none;
+    position: absolute;
+    left: 130px;
+    padding: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.about_us a{
+    text-decoration: none;
+    position: absolute;
+    left: 302px;
+    padding: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.academics a{
+    text-decoration: none;
+    position: absolute;
+    left: 515px;
+    padding: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.admissions a{
+    text-decoration: none;
+    position: absolute;
+    left: 730px;
+    padding: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.news_announcements a{
+    text-decoration: none;
+    position: absolute;
+    left: 952px;
+    padding: 10px 20px 13px 20px ;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact_us a{
+    text-decoration: none;
+    position: absolute;
+    left: 1235px;
+    padding: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.all-contents {
+    margin-left: 20px;
+    margin-top: 0%;
+}
+
+.admission_process {
+    margin-top: 95px; 
+    margin-bottom: 33px;
+    margin-left: 142px;
+    color: #692626;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.1px;
+}
+
+.line1{
+    width: 1158px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #9C7869;
+    margin-left: 142px;
+    margin-right: 142px;
+
+    
+}
+
+.content1 {
+    margin-top: 69px;
+    margin-left: 142px;
+    margin-right: 10px;
+}
+
+.process1, .process2 {
+    display: flex;
+    flex-direction: row;
+    gap: 57px; 
+}
+
+.row1, .row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 57px; 
+    margin-bottom: 35px; 
+    
+}
+
+
+.circle1 {
+    background-color: #84584F;
+    width: 100px;
+    height: 104px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+    margin: 20px; 
+}
+
+.step1,
+.step2,
+.step3,
+.step4 {
+    width: 545px;
+    height: 242px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid #6F4331;
+    background: #DBFEDB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.content-step-1 {
+    margin-left: 181px;
+}
+
+
+
+.box1 {
+    display: flex;
+    align-items: center;
+    width: 545px;
+    height: 242px;
+    padding: 5%;
+    border: 1px solid #6F4331;    
+    border-radius: 25px;
+    background: #DBFEDB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.circle {
+    background-color: #84584F;
+    width: 60%;
+    height: 65%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-display: 52px;
+    font-weight: 600;
+    color: #FFF;
+    padding: 3%;
+}
+
+.content {
+    color: #7D5341;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0 5%;
+}
+
+.online-enrollment {
+    margin-top: 111px; 
+    margin-bottom: 33px;
+    margin-left: 142px;
+    color: #692626;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.1px;
+}
+
+.line2{
+    width: 1158px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #9C7869;
+    margin-left: 142px;
+    margin-right: 142px;
+}
+
+.download-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 721px;
+    height: 107px;
+    flex-shrink: 0;
+    margin: auto;
+    margin-top: 57px;
+    padding: 1px;
+    border: 1px solid #6F4331;
+    border-radius: 25px;
+    background: #DBFEDB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, text-decoration-color 0.3s ease-in-out; 
+}
+
+.download-box:hover {
+    transform: scale(1.05); 
+    color: #42A242 !important; 
+    text-decoration-color: #42A242;
+}
+
+.download-box p {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #4F362C;    
+    text-decoration: underline #4F362C; 
+    transition: color 0.3s ease-in-out, text-decoration-color 0.3s ease-in-out; 
+}
+
+.download-box:hover p {
+    color: #42A242 !important; 
+    text-decoration-color: #42A242;
+    font-weight: 600;
+}
+
+
+.admission-calendar {
+    margin-top: 120px; 
+    margin-bottom: 33px;
+    margin-left: 142px;
+    color: #692626;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.1px;
+}
+
+
+.line3 {
+    width: 1158px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #9C7869;
+    margin-left: 142px;
+    margin-right: 142px;
+}
+
+
+.content3 {
+    display: flex;
+    flex-direction: row;
+    gap: 57px;
+    margin-top: 58px;
+    justify-content: center; 
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    gap: 57px;
+    margin-bottom: 35px;
+}
+
+.notable-dates1 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 474px;
+    height: 318px;
+    padding: 30px;
+    border: 1px solid #6F4331;
+    border-radius: 25px;
+    background: #DBFEDB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.notable-dates1 h4 {
+    text-align: left; 
+    color: #84584F;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.line4 {
+    width: 275px;
+    height: 2px;    
+    flex-shrink: 0;
+    background: #9C7869;
+    margin-top: 10px;
+}
+
+
+.notable-dates1 ul {
+    padding: 10px;
+    margin: 0;
+    margin-top: 26px; 
+    margin-left: 38px;
+    
+}
+
+.notable-dates1 li {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #7D5341;
+    margin-bottom: 20px; 
+}
+
+.calendar {
+    display: flex;
+    align-items: center;
+    width: 618px;
+    height: 398px;
+    padding: 80px;
+    border: 1px solid #6F4331;
+    border-radius: 25px;
+    background: #DBFEDB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.calendar img {
+    width: 458px;
+    height: 345px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    align-items: center;
+    border: 1px solid #6F4331;
+
+}
+
+
+.alltextfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    color: #C7C7C7;
+}
+
+.textfooter {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    margin-left: 13px;
+}
+
+.line5 {
+    width: 400px;
+    height: 1px;
+    margin: 5px 0;
+    background: #AB9388;
+    margin-left: 13px;
+
+}
+
+.two-textfoot {
+    font-size: 16px;
+    margin-left: 13px;
+}
+
+a:hover {
+    transition: 1.5s;
+    color: yellow;
+}
+
+.footer{
+    position: absolute;
+    top: 2175px;
+    width: 1519px;
+    height: 209px;
+    background-color: #2D221E;
+}
+
+.footer_mini_logo{
+    position: absolute;
+    top: 28px;
+    left: 50px;
+    width: 76px;
+    height: 74px;
+    flex-shrink: 0;
+}
+
+.footer_school_info{
+    position: absolute;
+    color: #C7C7C7;
+    top: 64px;
+    left: 200px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer_line{
+    position: absolute;
+    top: 35px;
+    width: 388.001px;
+    height: 2px;
+}
+
+.footer_phone_icon{
+    position: absolute;
+    top: 30px;
+    left: 1117px;
+    text-align: center;
+    color: #AB9388;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.phone_icon{
+    position: absolute;
+    left: -30px;
+}
+
+.footer_location_icon{
+    position: absolute;
+    top: 40px;
+    left: 1117px;
+    color: #AB9388;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.location_icon{
+    position: absolute;
+    bottom: 5px;
+    left: -30px;
+}
+
+.footer_mail_icon{
+    position: absolute;
+    top: 90px;
+    left: 1117px;
+    color: #AB9388;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.mail_icon{
+    position: absolute;
+    left: -30px;
+}
+
+.footer_fb_icon a{
+    text-decoration: none;
+    position: absolute;
+    top: 145px;
+    left: 1117px;
+    color: #AB9388;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.fb_icon{
+    position: absolute;
+    left: -30px;
+}
+
+/* Scroll Up Button */
+
+#top {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.btn {
+    position: fixed;
+    width: 50px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.50);
+    color: darkgray;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+.btn:hover {
+    background: rgb(54, 134, 57, 0.50)
+}

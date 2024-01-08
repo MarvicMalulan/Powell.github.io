@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> News & Announcements </title>
+		<meta charset= "UTF-8">
+		<link rel= "stylesheet" type= "text/css" href= "styles_news_and_announcements.css">
+        <link rel="icon" href= "POWELL_DOCUMENTS/big_logo.png" type="image/x-icon">
+	</head>
+    <body>
+
+        
+
+        <!--Header-->
+
+        <div id="top"></div>
+        <a class="btn" href="#top">🠕</a>
+
+        <div class = "header">
+            <div class = "upper_brown"></div>
+
+            <div class = "mini_logo">
+                <img class = "mini_logo" src = "POWELL_DOCUMENTS/school-logo.png">
+            </div>
+
+            <div class = "school_name">
+                POWELL Integrated School of Global City Inc.
+            </div>
+
+            <div class = "school_address">
+                13th Fox St., Group IV Palar Village, Pinagsama, Taguig City
+            </div>
+
+            <div class = "navigations">
+                <div class = "home">
+                    <a href = "index.html"> HOME </a>
+                </div>
+    
+                <div class = "about_us">
+                    <a href = "about_us.html"> ABOUT US </a>
+                </div>
+    
+                <div class = "academics">
+                    <a href = "academics.html"> ACADEMICS </a>
+                </div>
+    
+                <div class = "admissions">
+                    <a href = "admissions.html"> ADMISSIONS </a>
+                </div>
+    
+                <div class = "news_announcements">
+                    <a href = "news_and_announcements.html"> NEWS & <br> ANNOUNCEMENTS </a>
+                </div>
+    
+                <div class = "contact_us">
+                    <a href = "contact_us.html"> CONTACT US </a>
+                </div>
+
+            </div>
+        </div>
+        
+        <script>
+            let slideIndex = 1;
+            
+            document.addEventListener("DOMContentLoaded", function() {
+              showSlides(slideIndex);
+            });
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n === undefined) n = ++slideIndex;
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+
+            
+
+
+            </script>
+
+            <div class="admission_process">
+                <p>NEWS AND ANNOUNCEMENTS</p>
+            </div>
+            <div class="line1"></div>
+    
+            
+            <div class="body_left">
+                <div class="container">
+    
+                  <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                      <img src="POWELL_DOCUMENTS/pic1.png">
+                  </div>
+    
+                  <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                      <img src="POWELL_DOCUMENTS/pic2.png">
+                  </div>
+    
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                      <img src="POWELL_DOCUMENTS/pic3.png">
+                  </div>
+    
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                      <img src="POWELL_DOCUMENTS/gallery4.jpg">
+                  </div>
+    
+                  <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                      <img src="POWELL_DOCUMENTS/gallery5.jpg">
+                  </div>
+    
+                  <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                      <img src="POWELL_DOCUMENTS/gallery6.jpg">
+                  </div>
+    
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  
+                  <div id="imageGallery">
+    
+                  <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+    
+                  </div>
+                </div>
+            </div>
+        
+            <div class="showcase-text">
+                <h4>HALLOWEEN EVENT 2023</h4>
+                <p>
+                    "Trick or Treat! Powell Integrated School of Global City Inc. was thrilled to announce its upcoming Halloween event, 
+                    a spooktacular celebration tailored for our primary school students, filled with festive activities and ghoulish fun."</p>
+            </div>
+
+            <div class="contents2">
+                <div class="wrapper"></div>
+                <div class="events">
+                    <p>UPCOMING EVENTS</p>
+                </div>
+                <div class="line2"></div>
+
+                <div class="grid">
+                    <div class="box">
+                        <h5>EXAM WEEK</h5>
+                        <p>
+                            PISGC exam week is approaching, review with all your might so you won't have regrets.</p>
+                    </div>
+
+                    <div class="box">                        
+                        <h5>WELCOME YEAR 2024!</h5>
+                        <p>
+                            We, from, PISGC welcome the year of 2024. May this year be blessful for all of us!</p>
+                    </div>
+
+                    <div class="box">
+                        <h5>SHOWING OF REPORT CARDS</h5>
+                        <p>
+                           It will let you see the academic progress of your child and consult with the adviser.</p>
+                        </div>
+
+                    <div class="box">
+                        <h5>MIDYEAR BREAK</h5>
+                        <p>
+                            Get ready for the much-anticipated midyear break, offering students a well-deserved pause to recharge and bond with their family.
+                           </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+
+            <div class="recent-events">
+                <p>RECENT EVENTS</p>
+            </div>
+            <div class="line3"></div>
+
+
+			<div class="container4">
+				<div class="img-container">
+					<img src="POWELL_DOCUMENTS/prelim.jpg" alt="Prelim">
+				</div>
+				<div class="description">
+					<h8>PRELIMINATION</h8>
+					<p>After successfully completing the preliminary exams, PISGC is confident that the students are well-prepared for the upcoming periodical examinations. 
+                        The school concludes the preliminary assessments with a sense of accomplishment, acknowledging the dedication and determination shown by students 
+                        during these challenging evaluations. The collaborative efforts of both students and educators are a source of pride for the school. As we await 
+                        the results, let's celebrate the diligence, resilience, and progress fostered by these exams. Congratulations to all for reaching this significant milestone in our academic journey at PISGC!</p>
+				</div>
+			</div>
+                                                            
+
+        <!--Footer-->
+
+        <div class = "footer">
+            <div class = "footer_mini_logo">
+                <img class = "footer_mini_logo" src = "POWELL_DOCUMENTS/school-logo.png">
+            </div>
+
+            <div class = "footer_school_info">
+                <span style = "font-size: 18px;">POWELL Integrated School of Global City Inc.</span>
+                <br><img class = "footer_line" src = "POWELL_DOCUMENTS/footer_line.png">
+                <br><span style = "font-size: 16px;">2023 All RIGHTS RESERVED</span> 
+            </div>
+
+            <div class = "footer_phone_icon">
+                <img class = "phone_icon" src = "POWELL_DOCUMENTS/call.png">
+                <span style="font-size: 15px;"> (02) 7030236 or 0920-822-2255</span>
+            </div>
+
+            <div class = "footer_location_icon">
+                <br><img class = "location_icon" src = "POWELL_DOCUMENTS/location.png">
+                <span style="font-size: 15px;"> 13th Fox St., Group IV Palar Village, <br>Pinagsama, Taguig City</span>
+            </div>
+
+            <div class = "footer_mail_icon">
+                <br><img class = "mail_icon" src = "POWELL_DOCUMENTS/message.png">
+                <span style="font-size: 15px;"> powellintegratedschool2007@gmail.com </span>
+            </div>
+
+            <div class = "footer_fb_icon">
+                <br><a href = "https://www.facebook.com/EducatingwithtHEART"><img class = "fb_icon" src = "POWELL_DOCUMENTS/facebook.png">
+                    <span style="font-size: 15px;"> Powell Integrated School of Global City, Inc. </span></a>
+                
+            </div>
+
+        </div>    
+    </body>
+
+<html>
